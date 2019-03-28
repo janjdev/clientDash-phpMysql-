@@ -11,7 +11,7 @@ var name = $(this).attr('data-name'),
 		$('.mirror_site .proj_desc').text(desc);
 			setTimeout(function () {
 			$('.mirrio_site').css('opacity', 1);
-			spinner.addClass('hide');
+			$(spinner).addClass('hide');
 			}, 3500);
 	});
 
